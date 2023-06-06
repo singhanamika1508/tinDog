@@ -1,0 +1,171 @@
+ body {
+   font-family: "Montserrat-Black", sans-serif;
+   text-align: center;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat", sans-serif;
+ }
+
+ p {
+   color: #8f8f8f;
+ }
+
+ /* container */
+ .container-fluid {
+   padding: 7% 15%;
+ }
+
+ /* sections */
+ .coloured-section {
+   background-color: #ff4c68;
+   color: #fff;
+ }
+
+ .white-section {
+   background-color: #fff;
+ }
+
+ /* heading */
+ .heading {
+   font-family: "Montserrat", sans-serif;
+   font-size: 3.5rem;
+   line-height: 1.5;
+ }
+
+ .section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ /* navigation bar */
+ .navbar {
+   padding: 0 0 4.5rem;
+ }
+
+ .navbar-brand {
+   font-family: "ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+ .nav-item {
+   padding: 0 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Montserrat-Black", sans-serif;
+   font-weight: 100;
+ }
+
+ /* button Download */
+ .download-button {
+   margin: 5% 3% 5% 0;
+ }
+
+ /* title */
+ #title .container-fluid {
+   padding: 3% 15% 7%;
+   text-align: left;
+ }
+
+ .title-image {
+   width: 60%;
+   transform: rotate(25deg);
+   margin-left: 100px;
+   position: absolute;
+   top: 10%;
+   right: 20%;
+ }
+
+ /* fteatures-section */
+ #features {
+   position: relative;
+   z-index: 1;
+ }
+
+ .feature-title {
+   font-size: 1.5rem;
+ }
+
+ .feature-box {
+   padding: 5%;
+ }
+
+ .icon {
+   color: #ef8172;
+   margin-bottom: 1rem;
+ }
+
+ .icon:hover {
+   color: #ff4c68;
+ }
+
+ /* testimonaial section */
+ #testimonials {
+   background-color: #ef8172;
+ }
+
+ .testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ .testimonial-img {
+   width: 20%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+ #testimonials .carousel-item {
+   padding: 7% 15% 3%;
+ }
+
+ #press {
+   background-color: #ef8172;
+   padding-bottom: 3%;
+ }
+
+ .press-logo {
+   width: 15%;
+   margin: 20px 20px 40px;
+ }
+
+ /* pricing section */
+ #pricing {
+   padding: 100px;
+ }
+
+ .pricing-col {
+   padding: 5% 3% 2%;
+ }
+
+ .prices {
+   font-size: 2rem;
+   line-height: 1.5;
+ }
+
+ /* call to action */
+ /* footer */
+ .footer-icon {
+   margin: 10px;
+   color: #8f8f8f;
+ }
+
+ .footer-icon:hover {
+   color: black;
+ }
+
+ @media (max-width: 991.5px) {
+   #title {
+     text-align: center;
+   }
+
+   .title-image {
+     position: static;
+     transform: rotate(0);
+     width: 50%;
+     margin-left: 0;
+   }
+ }
